@@ -1,0 +1,87 @@
+/* ---------- BASE STYLES (ALL DEVICES) ---------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+#name {
+    margin-top: 30px;
+}
+
+input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+#sub {
+    background-color: skyblue;
+    border: none;
+    cursor: pointer;
+}
+
+#sub:hover {
+    background-color: red;
+}
+
+p {
+    font-weight: bold;
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    background-color: #ff4d4d;
+    border-radius: 50%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#flame {
+    font-size: 1.2rem;
+}
+
+#prob {
+    color: #ff4d4d;
+    font-size: 1.2rem;
+}
+
+/* ---------- MOBILE ONLY ---------- */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    #circle {
+        width: 150px;
+        height: 150px;
+    }
+}
